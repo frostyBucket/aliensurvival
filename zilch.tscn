@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://c11xt22yxbfs7"]
+[gd_scene load_steps=2 format=3 uid="uid://c11xt22yxbfs7"]
+
+[ext_resource type="ArrayMesh" uid="uid://bh8vq0o8plj3r" path="res://hosue.obj" id="1_u4ami"]
 
 [node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0639558, 0.0539722, -0.0220814)
+
+[node name="Hosue" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_u4ami")
